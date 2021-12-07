@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.header  {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(169, 255, 255);
+  margin: 30px 30px;
+}
+
+.bodye{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(169, 255, 255);
+  margin: 30px 30px;
+}
+
+.footer{
+  font-size: 40px;
+  text-align: center; 
+  color: rgb(169, 255, 255);
+  margin: 30px 30px;
+}
+body{
+  background-color: #282c34;
+}

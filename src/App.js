@@ -1,33 +1,17 @@
 // eslint-disable-next-line
 import logo from './logo.svg'; //
 import './App.css';
-
-// ?? Header 
-function Header(){
-  return (
-    <div>
-      <h1>Header</h1>
-    </div>
-  );
-}
-
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
 // ?? Body
 function App() {
   return (
-    // navbar react
-   <p>this is main component</p>
+    <>
+    <Header />
+    <Main />
+    <Footer />
+    </>
   );
 }
-
-// ?? Footer
-function Footer(){
-  return (
-    <div>
-      <h1>Footer</h1>
-    </div>
-  );
-}
-
-// export default App;
-export {App,Header,Footer} ;
-// export {Header,footer};
+export default App;
