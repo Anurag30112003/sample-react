@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+// eslint-disable-next-line
+import logo from './logo.svg'; //
 import './App.css';
 
 // ?? Header 
@@ -12,7 +13,6 @@ function Header(){
 
 // ?? Body
 function App() {
-  let hello = "js"
   return (
     // navbar react
    <p>this is main component</p>
