@@ -55,6 +55,7 @@
   text-align: center; 
   color: rgb(169, 255, 255);
   margin: 30px 30px;
+  
 }
 body{
   background-color: #282c34;
@@ -71,4 +72,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.r{
+  color: #ffffff;
 }
